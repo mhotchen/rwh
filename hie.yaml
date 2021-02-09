@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:rwh"
+
+    - path: "app/Main.hs"
+      component: "rwh:exe:rwh-exe"
+
+    - path: "app/Paths_rwh.hs"
+      component: "rwh:exe:rwh-exe"
+
+    - path: "test"
+      component: "rwh:test:rwh-test"
